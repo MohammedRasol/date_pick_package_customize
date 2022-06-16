@@ -211,7 +211,7 @@ class _DatePickerRoute<T> extends PopupRoute<T> {
   Duration get transitionDuration => const Duration(milliseconds: 200);
 
   @override
-  bool get barrierDismissible => false;
+  bool get barrierDismissible => true;
 
   @override
   final String? barrierLabel;
