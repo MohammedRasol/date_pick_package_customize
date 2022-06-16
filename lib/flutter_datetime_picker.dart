@@ -211,7 +211,7 @@ class _DatePickerRoute<T> extends PopupRoute<T> {
   Duration get transitionDuration => const Duration(milliseconds: 200);
 
   @override
-  bool get barrierDismissible => true;
+  bool get barrierDismissible => false;
 
   @override
   final String? barrierLabel;
@@ -380,7 +380,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
                 return null;
               }
               return Container(
-                padding: EdgeInsets.only(left: 10,right: 10),
+                padding: EdgeInsets.only(left: 10, right: 10),
                 height: theme.itemHeight,
                 alignment: Alignment.center,
                 child: Text(
