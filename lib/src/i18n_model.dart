@@ -42,7 +42,7 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'pm': 'PM'
   },
   LocaleType.ar: {
-    'cancel': 'اللغاء',
+    'cancel': 'إلغاء',
     'done': 'حفظ',
     'today': 'اليوم',
     'monthShort': [
